@@ -61,7 +61,7 @@ else{
 
 const age = 10
 if (age === 18) console.log('You just became an adult')
-*/
+
 
 const favourite = Number(prompt("what is your favourite number"))
 console.log(favourite)
@@ -74,3 +74,29 @@ if (favourite === 23){   //'23' == 23
 }else {
     console.log('number is not 7 or 23')
 }
+
+if(favourite !== 23) (console.log('Why not the 23'))
+
+*/
+
+// const koalaScore = (98 + 52 + 60) / 3
+// const dolphinScore = (100 + 78 + 65) / 3
+// console.log( koalaScore, dolphinScore)
+
+// if (koalaScore > dolphinScore){
+//     console.log( 'Koala wins the trophy')
+// }else if(dolphinScore > koalaScore){
+//     console.log('Dolphins wins the trophy')
+// }else if( dolphinScore === koalaScore){
+//     console.log('Both teams win the trophy')
+// }
+
+
+//ternary operator. if and else
+const age = 23
+// age >= 18 ? console.log('I like to drink wine'):
+const drink = age >= 18 ? 'wine' : 'water'
+console.log(drink)
+// console.log('I like to drink water')
+
+console.log (`I like to drink ${age >= 18 ? 'wine' : 'water'}`)
